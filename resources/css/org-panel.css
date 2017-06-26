@@ -1,0 +1,25 @@
+.org-panel-title {
+  padding: 0 24px;
+}
+
+.org-banner-image {
+  margin-bottom: 24px;
+}
+
+.panel-body a,
+.modal-body a {
+  cursor: pointer;
+}
+
+.page-header p {
+  cursor: pointer;
+}
+
+.page-header p:hover {
+  color: #5b5b5b;
+}
+
+.page-header p span {
+  font-style: italic;
+  font-size: 16px;
+}
