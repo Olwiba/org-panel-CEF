@@ -1,5 +1,17 @@
-.org-panel-title {
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+.org-panel-title-container {
   padding: 0 24px;
+}
+
+.org-panel-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 
 .org-banner-image {
